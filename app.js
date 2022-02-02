@@ -1,4 +1,4 @@
-module.exports = { add, multiply, subtract, divide };
+// module.exports = { add, multiply, subtract, divide, operate };
 
 function add(num1, num2 = 0) {
   return num1 + num2;
@@ -33,5 +33,3 @@ function operate(operator, num1, num2) {
       return "Error: I don't know that operator.";
   }
 }
-
-console.log(operate(divide, 10, 2));
